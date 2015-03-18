@@ -60,6 +60,13 @@ projects[] = mailchimp
 projects[] = menu_attributes
 projects[] = typekit
 projects[] = freepager
+projects[] = rabbit_hole
+projects[] = extlink
+
+
+; Images
+projects[] = imageapi_optimize
+projects[] = imagemagick
 
 
 ; Themes
