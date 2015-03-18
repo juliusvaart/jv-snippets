@@ -59,6 +59,7 @@ projects[] = video_embed_field
 projects[] = mailchimp
 projects[] = menu_attributes
 projects[] = typekit
+projects[] = freepager
 
 
 ; Themes
