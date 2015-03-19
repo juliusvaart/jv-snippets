@@ -1,0 +1,114 @@
+/* JV Colorbox Theme 2 */
+
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+	overflow:hidden;
+	cursor: pointer;
+}
+
+#colorbox {
+  z-index: 1000;
+}
+
+#cboxOverlay {
+	position:fixed;
+	width:100% !important;
+	height:100% !important;
+	background: #fff;
+	background: rgba(255,255,255,0.95) !important;
+}
+
+#cboxMiddleLeft,#cboxBottomLeft {
+	clear:left;
+}
+
+#cboxLoadedContent {
+	overflow: auto;
+	cursor: -webkit-zoom-in !important; 
+	cursor: -moz-zoom-in !important;
+}
+
+#cboxLoadingOverlay,#cboxLoadingGraphic {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow {
+	cursor:pointer;
+}
+
+.cboxPhoto {
+	float:left;
+	margin:auto;
+	border:0;
+	display:block;
+	padding:0;
+}
+
+.cboxIframe {
+	width:100%;
+	height:100%;
+	display:block;
+	border:0;
+}
+
+
+#cboxTitle {
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding-top: 3px;
+	padding-right: 11%;
+	text-align:left;
+	width:90%;
+	color:#000;
+	height: 25px;
+	font-size: 14px;
+	margin: 0;
+}
+
+
+#cboxLoadedContent {
+  margin: 25px 0;
+}
+
+#cboxCurrent {
+  display: none !important;
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose {
+  background: none;
+  border: none;
+  width: auto;
+  height: 25px;
+  line-height: 5px;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+#cboxPrevious {
+  left: 0;
+}
+
+#cboxNext {
+  left: 80px;
+}
+
+#cboxClose {
+  right: 0;
+  width: auto;
+  text-align: right;
+}
