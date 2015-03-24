@@ -46,8 +46,6 @@ projects[] = sassy
 projects[] = colorbox
 projects[] = draggableviews
 projects[] = date
-;projects[] = epsacrop
-projects[epsacrop] = 2.x-dev
 projects[] = genpass
 projects[] = search404
 projects[] = spamspan
@@ -62,6 +60,13 @@ projects[] = typekit
 projects[] = freepager
 projects[] = rabbit_hole
 projects[] = extlink
+projects[] = multiupload_imagefield_widget
+projects[] = multiupload_filefield_widget
+
+
+; EPSA crop + multiupload patch
+projects[epsacrop][version] = 2.x-dev
+projects[epsacrop][patch][] = "https://www.drupal.org/files/issues/epsacrop-crop_does_not_work_with_multiupload_modules_lastest_dev-1836284-7.patch"
 
 
 ; Images
