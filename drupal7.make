@@ -1,4 +1,4 @@
-; Drush Make Julius Vaart v2 (18-03-2015)
+; Drush Make Drupal 7 JVDV v2.1 (updated 26-07-2015)
 
 api = 2
 core = 7.x
@@ -60,8 +60,10 @@ projects[] = typekit
 projects[] = freepager
 projects[] = rabbit_hole
 projects[] = extlink
+projects[] = field_permissions
 projects[] = multiupload_imagefield_widget
 projects[] = multiupload_filefield_widget
+projects[] = filefield_sources
 
 
 ; EPSA crop + multiupload patch
@@ -72,6 +74,7 @@ projects[epsacrop][patch][] = "https://www.drupal.org/files/issues/epsacrop-crop
 ; Images
 projects[] = imageapi_optimize
 projects[] = imagemagick
+projects[] = imagick
 
 
 ; Themes
