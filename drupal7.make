@@ -1,5 +1,6 @@
 ; Drush Make Drupal 7 JVDV v2.1 (updated 26-07-2015)
 
+
 api = 2
 core = 7.x
 projects[] = drupal
@@ -17,7 +18,6 @@ projects[] = ckeditor
 projects[] = context
 projects[] = ctools
 projects[] = devel
-projects[] = google_analytics
 projects[] = imagecache_actions
 projects[] = jquery_update
 projects[] = l10n_update
@@ -35,6 +35,11 @@ projects[] = entity
 ; Performance
 ;projects[] = boost
 projects[] = advagg
+
+
+; Analytics
+;projects[] = google_analytics
+projects[] = piwik
 
 
 ; SASS PHP
@@ -73,7 +78,7 @@ projects[epsacrop][patch][] = "https://www.drupal.org/files/issues/epsacrop-crop
 
 ; Images
 projects[] = imageapi_optimize
-projects[] = imagemagick
+;projects[] = imagemagick
 projects[] = imagick
 
 
