@@ -15,6 +15,7 @@ projects[] = admin_menu
 projects[] = admin
 projects[] = admin_theme
 projects[] = ckeditor
+projects[] = emptyparagraphkiller
 projects[] = context
 projects[] = ctools
 projects[] = devel
