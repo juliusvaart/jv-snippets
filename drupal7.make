@@ -1,6 +1,5 @@
 ; Drush Make Drupal 7 JVDV v2.1 (updated 26-07-2015)
 
-
 api = 2
 core = 7.x
 projects[] = drupal
@@ -8,6 +7,10 @@ projects[] = drupal
 
 ; Language
 translations[] = nl
+
+
+; Themes
+projects[] = mothership
 
 
 ; Modules standard
@@ -48,6 +51,23 @@ projects[] = prepro
 projects[] = sassy
 
 
+; Object Store
+projects[] = storage_api
+projects[] = storage_api_populate
+projects[] = storage_api_stream_wrapper
+
+
+; EPSA crop + multiupload patch
+projects[epsacrop][version] = 2.x-dev
+projects[epsacrop][patch][] = "https://www.drupal.org/files/issues/epsacrop-crop_does_not_work_with_multiupload_modules_lastest_dev-1836284-7.patch"
+
+
+; Images
+projects[] = imageapi_optimize
+;projects[] = imagemagick
+projects[] = imagick
+
+
 ; Modules optional
 projects[] = colorbox
 projects[] = draggableviews
@@ -70,21 +90,6 @@ projects[] = field_permissions
 projects[] = multiupload_imagefield_widget
 projects[] = multiupload_filefield_widget
 projects[] = filefield_sources
-
-
-; EPSA crop + multiupload patch
-projects[epsacrop][version] = 2.x-dev
-projects[epsacrop][patch][] = "https://www.drupal.org/files/issues/epsacrop-crop_does_not_work_with_multiupload_modules_lastest_dev-1836284-7.patch"
-
-
-; Images
-projects[] = imageapi_optimize
-;projects[] = imagemagick
-projects[] = imagick
-
-
-; Themes
-projects[] = mothership
 
 
 ; Libraries
